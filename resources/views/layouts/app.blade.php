@@ -3,7 +3,10 @@
         <title>App Name - @yield('title')</title>
     </head>
     <body>
-        @section('sidebar')
+        <div class="container">
+            
+        </div>
+        @section('navibar')
             This is the master sidebar.
         @show
 
