@@ -89,3 +89,11 @@ asset() => to access public asset
 
 in laravel => in body 
 using asset 
+if from git
+Run `git clone 'link projer github'
+Run composer install.
+Run cp .env.example .env or copy .env.example .env.
+Run php artisan key:generate.
+Run php artisan migrate.
+Run php artisan serve.
+Go to link localhost:8000.

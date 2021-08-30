@@ -16,6 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('home',['uses'=>'\App\Http\Controllers\HomeController@index']);
-Route::get('child',function(){
-    return view('child');
-});
+Route::get('production',['uses'=>'\App\Http\Controllers\ProductController@index']);
